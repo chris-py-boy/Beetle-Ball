@@ -9,7 +9,11 @@
     "name":"Default",
   },
   "defaultScriptType":1,
-  "Folders":[],
+  "Folders":[
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
@@ -19,12 +23,18 @@
   },
   "name":"BeetleBall Gamefile",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Initialiser","path":"objects/Initialiser/Initialiser.yy",},},
+    {"id":{"name":"obj_beetle_parent","path":"objects/obj_beetle_parent/obj_beetle_parent.yy",},},
+    {"id":{"name":"obj_debug","path":"objects/obj_debug/obj_debug.yy",},},
+    {"id":{"name":"Object4","path":"objects/Object4/Object4.yy",},},
+    {"id":{"name":"rm_base_standard","path":"rooms/rm_base_standard/rm_base_standard.yy",},},
+    {"id":{"name":"scr_fetch_input","path":"scripts/scr_fetch_input/scr_fetch_input.yy",},},
+    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_base_standard","path":"rooms/rm_base_standard/rm_base_standard.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
