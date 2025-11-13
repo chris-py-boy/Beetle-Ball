@@ -57,7 +57,7 @@ if place_free(x + _x_target, y + _y_target){
 	//if theres something there, snap it to where it can go
 		//x snap
 		var _increment = 0
-		while h_spd != 0 && !place_free(x + _x_target, y + _y_target){
+		while h_spd >= 0 && !place_free(x + _x_target, y + _y_target){
 			_increment += 0.05*sign(h_spd)
 			_x_target = h_spd - _increment
 			_y_target = v_spd
