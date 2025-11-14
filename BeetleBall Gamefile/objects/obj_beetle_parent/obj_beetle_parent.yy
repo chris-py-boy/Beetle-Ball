@@ -10,8 +10,8 @@
   "name":"obj_beetle_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Beetles",
+    "path":"folders/Objects/Beetles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite1",
-    "path":"sprites/Sprite1/Sprite1.yy",
+    "name":"spr_beetle_empty_sprite",
+    "path":"sprites/spr_beetle_empty_sprite/spr_beetle_empty_sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
