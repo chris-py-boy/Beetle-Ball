@@ -1,3 +1,4 @@
+		scr_fetch_input()
 		#region setup
 		
 		
@@ -13,8 +14,6 @@ if setup = false{
 
 
 		#endregion
-scr_fetch_input()
-
 
 		#region Movement
 		

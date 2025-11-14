@@ -26,6 +26,7 @@
   },
   "name":"BeetleBall Gamefile",
   "resources":[
+    {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},},
     {"id":{"name":"obj_beetle_parent","path":"objects/obj_beetle_parent/obj_beetle_parent.yy",},},
     {"id":{"name":"obj_debug","path":"objects/obj_debug/obj_debug.yy",},},
     {"id":{"name":"obj_Initialiser","path":"objects/obj_Initialiser/obj_Initialiser.yy",},},
@@ -34,6 +35,7 @@
     {"id":{"name":"scr_fetch_input","path":"scripts/scr_fetch_input/scr_fetch_input.yy",},},
     {"id":{"name":"spr_beetle_empty_sprite","path":"sprites/spr_beetle_empty_sprite/spr_beetle_empty_sprite.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
