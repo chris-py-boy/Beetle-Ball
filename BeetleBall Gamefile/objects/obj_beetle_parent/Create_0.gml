@@ -8,6 +8,7 @@ jump_acc = 11
 h_acc = 0
 v_acc = 0
 
+
 //player data
 player_num = 0
 

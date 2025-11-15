@@ -22,7 +22,8 @@ if setup = false{
 var _dir_mod = (right_key[player_num] - left_key[player_num]) //returns 1 or -1
 var _current_dir = sign(h_spd)
 
-if (left_key[player_num] && !right_key[player_num]) or (!left_key[player_num] && right_key[player_num]){
+//if there is input
+if (right_key[player_num]) - left_key[player_num] != 0 {
 	//not at peak move speed yet
 	if clamp(h_spd, -move_spd, move_spd) != move_spd*_dir_mod{
 		h_acc = move_acc*_dir_mod

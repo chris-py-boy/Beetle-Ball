@@ -9,7 +9,7 @@ function scr_reset_positions(){
 	obj_ball.v_acc = 0
 	
 	for (_p = 0; _p <= 1; _p++){
-		obj_game_manager.player_id[_p].x = obj_game_manager.player_start_x[_p]
-		obj_game_manager.player_id[_p].y = obj_game_manager.player_start_y
+		obj_game_manager.player_num_id[_p].x = obj_game_manager.player_start_x[_p]
+		obj_game_manager.player_num_id[_p].y = obj_game_manager.player_start_y
 	}
 }

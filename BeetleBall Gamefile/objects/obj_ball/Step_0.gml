@@ -2,13 +2,22 @@ var _player_collision_id = 0
 
 //check if hit && get hit
 if place_meeting( x, y, obj_beetle_parent){
-	_player_collision_id = instance_place( x, y, obj_beetle_parent)
-	var _angle_to_player = point_direction( _player_collision_id.x, _player_collision_id.y,  x, y)
-	//get hit!!!
-	if _player_collision_id != noone{
-		h_spd = lengthdir_x(hit_base_power, _angle_to_player) + _player_collision_id.h_spd*hit_momentum_mod + h_spd/4
-		v_spd = lengthdir_y(hit_base_power, _angle_to_player) + _player_collision_id.v_spd*hit_momentum_mod + v_spd/4
+	//get multiple collisions
+	var _collision_id_list = ds_list_create()
+	var _collisions_num = instance_place_list(x, y, obj_beetle_parent, _collision_id_list, false);
+	
+	//how much velocity to keep
+	h_spd = h_spd/4
+	v_spd = v_spd/4
+	
+	//apply new velocities
+	for (var _c = 0; _c < _collisions_num; _c++){
+		var _angle_to_player = point_direction( _collision_id_list[| _c].x, _collision_id_list[| _c].y,  x, y)
+		h_spd += lengthdir_x(hit_base_power, _angle_to_player) + _collision_id_list[| _c].h_spd*hit_momentum_mod/_collisions_num
+		v_spd += lengthdir_y(hit_base_power, _angle_to_player) + _collision_id_list[| _c].v_spd*hit_momentum_mod/_collisions_num
 	}
+	ds_list_destroy(_collision_id_list);
+	
 }
 
 //drag & grav effect
