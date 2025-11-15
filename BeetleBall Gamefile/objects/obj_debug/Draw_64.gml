@@ -1,1 +1,0 @@
-draw_text(5,5,obj_beetle_parent.h_acc)

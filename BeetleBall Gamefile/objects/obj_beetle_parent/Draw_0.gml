@@ -1,2 +1,1 @@
-draw_self()
-draw_text(x,y-15,h_spd)
+draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, 0, player_col[player_num], 1)

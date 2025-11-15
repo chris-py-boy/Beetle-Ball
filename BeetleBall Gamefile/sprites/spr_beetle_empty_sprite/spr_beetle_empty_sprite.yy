@@ -1,7 +1,7 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_beetle_empty_sprite",
-  "bboxMode":2,
+  "bboxMode":1,
   "bbox_bottom":63,
   "bbox_left":0,
   "bbox_right":95,
@@ -59,7 +59,7 @@
     },
     "name":"spr_beetle_empty_sprite",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":1.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

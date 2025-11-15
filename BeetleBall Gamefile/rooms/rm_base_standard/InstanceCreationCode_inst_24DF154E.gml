@@ -1,0 +1,1 @@
+player_goal = 1

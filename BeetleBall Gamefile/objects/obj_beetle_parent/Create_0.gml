@@ -14,6 +14,8 @@ player_num = 0
 
 //appearance
 face_x_dir = 1
+player_col[0] = c_yellow
+player_col[1] = c_lime
 
 
 setup = false//for things that should happen after create event

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_fetch_input",
+  "%Name":"scr_fetch_cam",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_fetch_input",
+  "name":"scr_fetch_cam",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

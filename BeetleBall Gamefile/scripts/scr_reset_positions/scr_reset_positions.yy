@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_fetch_input",
+  "%Name":"scr_reset_positions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_fetch_input",
+  "name":"scr_reset_positions",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
