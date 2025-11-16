@@ -1,5 +1,6 @@
 var _player_collision_id = 0
 
+		#region ball physics
 //check if hit && get hit
 if place_meeting( x, y, obj_beetle_parent){
 	//get multiple collisions
@@ -13,8 +14,8 @@ if place_meeting( x, y, obj_beetle_parent){
 	//apply new velocities
 	for (var _c = 0; _c < _collisions_num; _c++){
 		var _angle_to_player = point_direction( _collision_id_list[| _c].x, _collision_id_list[| _c].y,  x, y)
-		h_spd += lengthdir_x(hit_base_power, _angle_to_player) + _collision_id_list[| _c].h_spd*hit_momentum_mod/_collisions_num
-		v_spd += lengthdir_y(hit_base_power, _angle_to_player) + _collision_id_list[| _c].v_spd*hit_momentum_mod/_collisions_num
+		h_spd += (lengthdir_x(hit_base_power, _angle_to_player) + _collision_id_list[| _c].h_spd*hit_momentum_mod)/_collisions_num
+		v_spd += (lengthdir_y(hit_base_power, _angle_to_player) + _collision_id_list[| _c].v_spd*hit_momentum_mod)/_collisions_num
 	}
 	ds_list_destroy(_collision_id_list);
 	
@@ -47,7 +48,8 @@ if place_free(x + _x_change, y){ //x movement first
 	}
 	//snaps you up against position
 	x += _x_change - 0.05*sign(_x_change)
-	h_spd = -h_spd
+	h_spd = -h_spd/1.1
+	v_spd = v_spd/v_friction
 }
 
 
@@ -66,5 +68,13 @@ if place_free(x, y + _y_change){ //y movement second
 	}
 	//snaps you up against position
 	y += _y_change - 0.05*sign(_y_change)
-	v_spd = -v_spd
+	v_spd = -v_spd/1.1
+	h_spd = h_spd/h_friction
 }
+			#endregion
+		
+		#region var checks
+
+on_ground = place_meeting(x, y + grav_acc, obj_wall)
+
+		#endregion

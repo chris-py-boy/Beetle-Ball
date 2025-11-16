@@ -1,5 +1,5 @@
 //move physics
-move_spd = 5
+move_spd = 6
 h_spd = 0
 v_spd = 0
 move_acc = 0.5
