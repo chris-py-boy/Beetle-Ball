@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_beetle_empty_sprite",
+  "%Name":"spr_beetle_stag",
   "bboxMode":1,
-  "bbox_bottom":49,
+  "bbox_bottom":53,
   "bbox_left":0,
-  "bbox_right":95,
+  "bbox_right":111,
   "bbox_top":0,
   "collisionKind":0,
   "collisionTolerance":0,
@@ -16,14 +16,14 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":50,
+  "height":54,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"0486e8d4-3674-43aa-a6a3-06335d708704","blendMode":0,"displayName":"default","isLocked":false,"name":"0486e8d4-3674-43aa-a6a3-06335d708704","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_beetle_empty_sprite",
+  "name":"spr_beetle_stag",
   "nineSlice":null,
-  "origin":7,
+  "origin":9,
   "parent":{
     "name":"Beetles",
     "path":"folders/Sprites/Beetles.yy",
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_beetle_empty_sprite",
+    "%Name":"spr_beetle_stag",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_beetle_empty_sprite",
+    "name":"spr_beetle_stag",
     "playback":1,
     "playbackSpeed":1.0,
     "playbackSpeedType":0,
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"42cda85c-37d6-4cc3-a641-afebefffd763","path":"sprites/spr_beetle_empty_sprite/spr_beetle_empty_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"42cda85c-37d6-4cc3-a641-afebefffd763","path":"sprites/spr_beetle_stag/spr_beetle_stag.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d989cb2f-5c13-458e-a4a0-f94ce7c12086","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":48,
-    "yorigin":50,
+    "yorigin":54,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":96,
+  "width":112,
 }

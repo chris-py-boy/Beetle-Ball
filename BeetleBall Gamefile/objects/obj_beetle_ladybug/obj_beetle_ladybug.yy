@@ -1,20 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_beetle_parent",
+  "%Name":"obj_beetle_ladybug",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_beetle_parent",
+  "name":"obj_beetle_ladybug",
   "overriddenProperties":[],
   "parent":{
     "name":"Beetles",
     "path":"folders/Objects/Beetles.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_beetle_parent",
+    "path":"objects/obj_beetle_parent/obj_beetle_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_beetle_base",
-    "path":"sprites/spr_beetle_base/spr_beetle_base.yy",
+    "name":"spr_beetle_ladybug",
+    "path":"sprites/spr_beetle_ladybug/spr_beetle_ladybug.yy",
   },
   "spriteMaskId":{
     "name":"spr_beetle_base",

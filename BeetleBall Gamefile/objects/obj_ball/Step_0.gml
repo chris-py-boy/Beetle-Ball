@@ -14,8 +14,10 @@ if place_meeting( x, y, obj_beetle_parent){
 	//apply new velocities
 	for (var _c = 0; _c < _collisions_num; _c++){
 		var _angle_to_player = point_direction( _collision_id_list[| _c].x, _collision_id_list[| _c].y,  x, y)
-		h_spd += (lengthdir_x(hit_base_power, _angle_to_player) + _collision_id_list[| _c].h_spd*hit_momentum_mod)/_collisions_num
-		v_spd += (lengthdir_y(hit_base_power, _angle_to_player) + _collision_id_list[| _c].v_spd*hit_momentum_mod)/_collisions_num
+		h_spd += ((lengthdir_x(hit_base_power, _angle_to_player) + _collision_id_list[| _c].h_spd*hit_momentum_mod)/_collisions_num)*_collision_id_list[| _c].kick_power
+		v_spd += ((lengthdir_y(hit_base_power, _angle_to_player) + _collision_id_list[| _c].v_spd*hit_momentum_mod)/_collisions_num)*_collision_id_list[| _c].kick_power
+		//let kicker know they've hit the ball
+		_collision_id_list[| _c].hit_ball = true
 	}
 	ds_list_destroy(_collision_id_list);
 	

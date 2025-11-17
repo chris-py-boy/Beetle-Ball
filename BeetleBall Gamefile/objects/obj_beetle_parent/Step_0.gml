@@ -15,6 +15,14 @@ if setup = false{
 
 		#endregion
 
+		#region Ability charge
+//charge up
+if ability_charge <= ability_charge_max && ability_can_charge{
+	ability_charge += ability_charge_rate
+	ability_charge = clamp(ability_charge, 0, ability_charge_max)
+}
+		#endregion
+
 		#region Movement
 		
 		
