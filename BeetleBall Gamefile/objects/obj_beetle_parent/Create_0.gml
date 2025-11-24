@@ -24,7 +24,6 @@ ability_charge_rate = 0.1//rate of charging
 ability_use_threshold = 100//how much charge to use ability
 ability_use_drain = 0//rate of ability use if applicable
 
-
 //appearance
 face_x_dir = 1
 

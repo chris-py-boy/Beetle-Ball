@@ -34,6 +34,7 @@ if ability_active{
 				obj_ball.v_spd = released_ball_v_spd
 			}
 		}
+		
 	}
 }
 

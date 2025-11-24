@@ -19,6 +19,7 @@ if place_meeting( x, y, obj_beetle_parent){
 		//let kicker know they've hit the ball
 		_collision_id_list[| _c].hit_ball = true
 	}
+	
 	ds_list_destroy(_collision_id_list);
 	
 }

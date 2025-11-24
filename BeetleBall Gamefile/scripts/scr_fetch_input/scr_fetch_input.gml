@@ -12,8 +12,8 @@ function scr_fetch_input(_player_controls = true){
 		right_pressed[0] = keyboard_check_pressed(vk_right)
 		
 		ability_key[0] = keyboard_check(vk_rcontrol)
-		ability_pressed[0] = keyboard_check_pressed(vk_decimal)
-		ability_released[0] = keyboard_check_released(vk_decimal)
+		ability_pressed[0] = keyboard_check_pressed(vk_rcontrol)
+		ability_released[0] = keyboard_check_released(vk_rcontrol)
 		
 		up_key[1] = keyboard_check(ord("W"))
 		up_pressed[1] = keyboard_check_pressed(ord("W"))

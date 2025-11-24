@@ -33,12 +33,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_beetle_base",
-    "path":"sprites/spr_beetle_base/spr_beetle_base.yy",
+    "name":"character_body_plan",
+    "path":"sprites/character_body_plan/character_body_plan.yy",
   },
   "spriteMaskId":{
-    "name":"spr_beetle_base",
-    "path":"sprites/spr_beetle_base/spr_beetle_base.yy",
+    "name":"character_body_plan",
+    "path":"sprites/character_body_plan/character_body_plan.yy",
   },
   "visible":true,
 }

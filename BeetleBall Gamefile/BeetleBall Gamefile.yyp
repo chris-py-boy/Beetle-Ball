@@ -25,7 +25,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"BeetleBall Gamefile",
   "resources":[
@@ -44,6 +44,7 @@
     {"id":{"name":"scr_fetch_cam","path":"scripts/scr_fetch_cam/scr_fetch_cam.yy",},},
     {"id":{"name":"scr_fetch_input","path":"scripts/scr_fetch_input/scr_fetch_input.yy",},},
     {"id":{"name":"scr_reset_positions","path":"scripts/scr_reset_positions/scr_reset_positions.yy",},},
+    {"id":{"name":"character_body_plan","path":"sprites/character_body_plan/character_body_plan.yy",},},
     {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},},
     {"id":{"name":"spr_beetle_base","path":"sprites/spr_beetle_base/spr_beetle_base.yy",},},
     {"id":{"name":"spr_beetle_ladybug","path":"sprites/spr_beetle_ladybug/spr_beetle_ladybug.yy",},},
